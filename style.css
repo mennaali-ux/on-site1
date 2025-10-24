@@ -1,0 +1,272 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("./images/headerbg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.logo{
+    float: left;
+}
+.main-nav{
+    float: right;
+}
+.main-nav ul{
+    margin-top: 5px;
+}
+.nav{
+    background-color: black;
+    padding:40px 0;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 0.5px;
+   
+}
+.main-nav ul li{
+    display: inline;
+}
+.main-nav ul a{
+    text-decoration: none;
+    color: white;
+    transform: uppercase;
+    padding-right: 15px;
+    margin-top: 10px;
+    transition: all 1s;
+}
+.main-nav ul a:hover{
+    color: blueviolet;
+    background-color: pink;
+}
+.hero{
+    text-align: center;
+    width: 88%;
+    margin: 50px auto;
+}
+.hero h1{
+    color: white;
+    padding-bottom: 10px;
+   transform: uppercase;
+    font-weight: bold;
+}
+.hero hr{
+    border: solid 1px #61c2f7;
+    margin: 20px auto;
+   
+}
+.hero p{
+    margin-bottom: 30px;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #61c2f7;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   
+}
+.design{
+    background-color: #eee;
+    text-align: center;
+    padding: 40px 0;
+}
+.design h2{
+   margin-bottom: 20px;
+   font-weight: normal;
+   font-size: 25px;
+}
+.design p{
+    color: gray;
+    line-height: 1.3;
+}
+.clear-fix{
+    clear: both;
+}
+
+.gallary{
+    padding: 50px 0px;
+    background-color: rgb(207, 202, 202);
+    text-align: center;
+}
+.info{
+    text-align: center;    
+}
+.info h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+.info p{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-bottom : 25px ;  
+}
+.x-row{
+    width: 100%;
+    overflow: hidden;
+}
+.x-row .item{
+    width: 31%;
+    margin: 1%;
+    float: left;
+}
+
+
+.x-row .item img{
+    width: 100%;
+}
+.icons{
+    padding: 50px 0px;
+    
+    
+
+}
+.row{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+
+}
+.icon{
+     float: left;
+     width: 30%;
+    text-align: center;
+    margin-right: 30px;
+}
+.icon i{
+    color: white;
+    background-color: rgb(162, 162, 221);
+    padding:22px;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.icon h3{
+    color: black;
+}
+.icon p{
+    color: gray;
+    font-size: 18px; 
+}
+.contact{
+    background-image: url('image/form.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+   
+}
+
+.contant{
+    background-image:url('images/contactbg.png');
+    
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 50px 0;
+    position: relative;
+    
+}
+.rgba{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 47, 47, 0.8);
+    background-size: cover;
+} 
+.info-contant{
+    text-align: center;
+    margin-top: 100px;
+}
+.info-contant h2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+.info-contant p {
+    color: #828281;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.form-contant{
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#txtarea , #text , #email{
+    width: 600px;
+   padding: 15px;
+   margin-bottom: 15px;
+   background: transparent;
+   display: block;
+}
+span{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    color: white;
+    
+}
+input[type=checkbox]{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border: solid 1px #61c2f7;
+}
+.footer{
+    padding: 25px;
+    background-color: #eee;
+    
+}
+
+.footer a{
+   
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+   
+   
+}
+.footer p{
+    font-size: 14px;
+    margin: 0px;
+    
+}
+
+
+
+
